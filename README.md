@@ -1,3 +1,7 @@
+# Marvelist
+
+This project was build for Code The Dream assignment by Tung Pham.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
