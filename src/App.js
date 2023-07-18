@@ -1,10 +1,13 @@
-import './App.css';
+import { useState } from "react";
+import "./App.css";
+import Navigation from "./Navigation";
 
 function App() {
   return (
-    <div className="App">
-
-    </div>
+    <>
+      <Navigation />
+      Welcome to Marvelist!
+    </>
   );
 }
 
