@@ -1,0 +1,35 @@
+.comic-card {
+  display: flex;
+  margin: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.comic-image {
+  width: 200px;
+  height: 300px;
+}
+
+.comic-name {
+  font-size: 18px;
+  color: #333;
+}
+
+.comic-card:hover {
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
+}
+
+.comic-information {
+    margin-left: 10px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.detail-link {
+    margin-top: auto;
+    margin-left: auto;
+}

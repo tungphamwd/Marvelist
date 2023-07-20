@@ -6,6 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import CharacterList from "./CharacterList";
+import ComicList from "./Comic";
 
 const router = createBrowserRouter([
   {
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
   {
     path: "/characters",
     element: <CharacterList />,
+  },
+  {
+    path: "/comics",
+    element: <ComicList />,
   },
 ]);
 

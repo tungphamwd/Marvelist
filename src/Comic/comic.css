@@ -1,0 +1,10 @@
+.comic-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .comic-title {
+    text-align: center;
+  }
+  
