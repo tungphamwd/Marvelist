@@ -1,0 +1,45 @@
+.home-selector {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+}
+.home-selector img {
+  max-width: 90vw;
+  max-height: 90vh;
+}
+
+.home-selector .container {
+  position: relative;
+}
+.home-selector .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  transition: 0.5s ease;
+  opacity: 0;
+  font-size: 20px;
+  text-align: center;
+}
+
+.home-selector .container:hover .overlay {
+  opacity: 1;
+}
+
+.overlay span {
+    position: relative;
+    top: 50%;
+    cursor: pointer;
+    border: white solid 2px;
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+}
+
+.overlay a {
+    text-decoration: none;
+}

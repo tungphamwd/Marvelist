@@ -5,7 +5,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import CharacterList from "./CharacterList";
+import CharacterList from "./Character";
 import ComicList from "./Comic";
 
 const router = createBrowserRouter([

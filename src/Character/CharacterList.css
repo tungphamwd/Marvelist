@@ -7,3 +7,9 @@
 .character-title {
   text-align: center;
 }
+
+.characters-pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
